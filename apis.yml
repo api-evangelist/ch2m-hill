@@ -1,0 +1,7 @@
+aid: ch2m-hill
+url: https://raw.githubusercontent.com/api-evangelist/ch2m-hill/refs/heads/main/apis.yml
+modified: '2026-03-23'
+apis: []
+common:
+  - type: Website
+    url: https://www.ch2m-hill.com
