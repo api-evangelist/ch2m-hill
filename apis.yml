@@ -2,7 +2,7 @@ aid: ch2m-hill
 url: >-
   https://raw.githubusercontent.com/api-evangelist/ch2m-hill/refs/heads/main/apis.yml
 name: CH2M Hill
-x-type: company
+kind: company
 tags:
   - Acquired
   - Construction
