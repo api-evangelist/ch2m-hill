@@ -28,6 +28,8 @@ description: >-
   delivery, and data services are now offered under the Jacobs brand.
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/ch2m-hill-domain-security.yml
   - type: Website
     url: https://www.jacobs.com/
   - type: LegacyWebsite
