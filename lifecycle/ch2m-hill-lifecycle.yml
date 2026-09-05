@@ -1,0 +1,41 @@
+generated: '2026-09-05'
+method: searched
+source: >-
+  https://www.jacobs.com/newsroom/press-release/jacobs-completes-ch2m-acquisition-creating-15-billion-professional-services
+  (HTTP 200) plus live DNS/HTTP probes of the CH2M brand domains.
+scope: company
+note: >-
+  This is a CORPORATE lifecycle record, not an API versioning policy. CH2M Hill
+  publishes no API, so there is no versioning scheme, no deprecation header
+  policy, no SLA and no status page to record. What there is, and what a reader
+  of this profile needs, is the end-of-life of the brand itself.
+versioning: null
+deprecation_policy: null
+sunset_header: null
+sla: null
+status_page: null
+company_lifecycle:
+  status: retired
+  successor: Jacobs Solutions Inc.
+  events:
+  - date: '2017-08-02'
+    event: >-
+      Jacobs Engineering Group announces an agreement to acquire CH2M in a cash
+      and stock transaction valued at approximately $3.27 billion.
+  - date: '2017-12-15'
+    event: >-
+      Jacobs completes the acquisition of CH2M, creating a combined firm with
+      roughly $15 billion in revenue and more than 74,000 staff.
+    evidence: https://www.jacobs.com/newsroom/press-release/jacobs-completes-ch2m-acquisition-creating-15-billion-professional-services
+  - date: observed 2026-09-05
+    event: >-
+      The CH2M brand domains have been fully decommissioned. ch2mhill.com and
+      ch2m.com resolve to a shared parking address (107.22.178.157) that answers
+      HTTP 404 "Web Site Not Found" for every path including the site root, and
+      www.ch2mhill.com does not resolve at all — its CNAME target is the literal
+      string "107.22.178.157.", an IP address written into a CNAME record, which
+      makes the hostname NXDOMAIN. No redirect to jacobs.com was configured, so
+      every historical inbound link to the CH2M site is broken rather than
+      forwarded.
+    evidence: http://ch2mhill.com/
+deprecated_operations: []

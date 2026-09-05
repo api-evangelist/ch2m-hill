@@ -1,0 +1,14 @@
+generated: '2026-09-05'
+method: searched
+source: >-
+  Attempted on the CH2M brand domains (ch2mhill.com, ch2m.com — both parked,
+  404 on every path) and on www.jacobs.com. No developer documentation exists
+  on any of them.
+limit_count: 0
+rate_limits: []
+response_headers: []
+note: >-
+  No rate limits are documented because no API is published. CH2M Hill has no
+  API entries in this record and contract discovery found no REST, GraphQL, MCP,
+  SOAP or OGC surface on any host the record knows. There is no runtime signal
+  to capture.

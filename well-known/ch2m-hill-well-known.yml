@@ -1,0 +1,108 @@
+generated: '2026-09-05'
+method: probed
+source: >-
+  Direct HTTP probes of the named /.well-known/ path list on every host this
+  record knows: the two legacy CH2M brand domains and the successor Jacobs host
+  carried in apis.yml as Website.
+note: >-
+  Nothing was found. CH2M Hill's own domains (ch2mhill.com, ch2m.com) no longer
+  host a site — the apex records resolve to a shared parking address that answers
+  404 "Web Site Not Found" for every path, and the www.ch2mhill.com hostname does
+  not resolve at all (its CNAME target is the literal string "107.22.178.157.",
+  an IP written into a CNAME record, which is NXDOMAIN). www.jacobs.com is the
+  successor brand's site and is live, but every probed /.well-known/ path there
+  returns 404 — the SPA-style 404s return an 83KB HTML shell, which is a miss,
+  not a document. No WellKnown or SecurityTxt pointer is emitted: this file
+  records a measured absence.
+hosts:
+- host: ch2mhill.com
+  note: >-
+    Legacy CH2M brand apex. Resolves to 107.22.178.157, a parking host serving
+    "Web Site Not Found" with HTTP 404 for every path including /.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: ch2m.com
+  note: >-
+    The shortened CH2M brand domain used from the 2015 rebrand until the Jacobs
+    acquisition. Same parking host, same 404 on every path.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: www.ch2mhill.com
+  note: >-
+    Does not resolve. DNS returns a CNAME whose target is the literal string
+    "107.22.178.157." — an IPv4 address placed in a CNAME record — so the name
+    is NXDOMAIN and no HTTP request is possible. Recorded as status 0.
+  documents:
+  - path: /.well-known/security.txt
+    status: 0
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 0
+    file: null
+- host: www.jacobs.com
+  note: >-
+    Successor brand host, carried in this record as Website because CH2M was
+    absorbed into Jacobs in December 2017. Live (HTTP 200 at /), but every
+    probed well-known path 404s. Jacobs' own surface is profiled separately.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

@@ -36,7 +36,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ch2m-hill.png
 access: 3rd-Party
 created: '2025-01-01'
-modified: '2026-04-23'
+modified: '2026-09-05'
 position: Consuming
 description: >-
   CH2M Hill was a global engineering, consulting, design, construction and
@@ -52,12 +52,23 @@ apis: []
 common:
   - type: DomainSecurity
     url: security/ch2m-hill-domain-security.yml
+  - type: Packages
+    url: packages/ch2m-hill-packages.yml
+  - type: Lifecycle
+    url: lifecycle/ch2m-hill-lifecycle.yml
+  - type: Plans
+    url: plans/ch2m-hill-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/ch2m-hill-rate-limits.yml
+  - type: LLMsTxt
+    url: llms/ch2m-hill-llms.txt
+  - type: GitHubOrganization
+    url: https://github.com/CH2M
   - type: Website
     url: https://www.jacobs.com/
-  - type: LegacyWebsite
-    url: https://www.ch2mhill.com/
   - type: Acquisition
-    url: https://www.jacobs.com/newsroom/news/jacobs-completes-acquisition-ch2m
+    url: >-
+      https://www.jacobs.com/newsroom/press-release/jacobs-completes-ch2m-acquisition-creating-15-billion-professional-services
   - type: ParentCompany
     url: https://www.jacobs.com/
   - type: About
@@ -101,3 +112,30 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.23'
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: defunct
+  detail: >-
+    CH2M Hill's own web presence is fully decommissioned — ch2mhill.com and
+    ch2m.com resolve to a shared parking host that answers HTTP 404 "Web Site Not
+    Found" for every path including the root, www.ch2mhill.com does not resolve
+    at all because its CNAME target is an IP literal, and the brand was absorbed
+    into Jacobs in December 2017 with no developer program in either era.
+  evidence:
+    - url: http://ch2mhill.com/
+      status: 404
+    - url: http://ch2m.com/
+      status: 404
+    - url: https://www.ch2mhill.com/
+      status: 0
+    - url: https://www.jacobs.com/.well-known/api-catalog
+      status: 404
+  checked: '2026-09-05'
+x-parent: jacobs-solutions
+x-relationship: acquisition
+x-acquired: 2017

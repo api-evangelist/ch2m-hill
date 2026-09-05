@@ -1,0 +1,33 @@
+generated: '2026-09-05'
+method: searched
+source: >-
+  npm registry search (registry.npmjs.org/-/v1/search?text=ch2m), PyPI
+  (pypi.org/pypi/ch2m/json), and the GitHub organization github.com/CH2M.
+official_package_count: 0
+packages: []
+note: >-
+  CH2M Hill published no client libraries. An npm registry search for "ch2m"
+  returns 0 results and PyPI has no ch2m package (404). The one GitHub
+  organization carrying the brand — github.com/CH2M, created 2015-12-01 — holds
+  a single repository, CH2M/proximityscanner ("Proximity Scanner for PG&E"),
+  which is an empty repo (size 0, one contributor, last pushed 2015-12-01) with
+  no releases and no published package. No SDKs pointer is emitted, because
+  there is no SDK.
+github_organizations:
+- url: https://github.com/CH2M
+  status: 200
+  public_repos: 1
+  created: '2015-12-01'
+  repositories:
+  - name: proximityscanner
+    url: https://github.com/CH2M/proximityscanner
+    description: Proximity Scanner for PG&E
+    last_push: '2015-12-01'
+    size_kb: 0
+    version: null
+    published: null
+    registry: none
+    note: >-
+      Empty repository — no code, no releases, no registry artifact. Attribution
+      to CH2M Hill rests on the organization login and on PG&E being a utility
+      client of the firm; the repository itself carries no company metadata.
