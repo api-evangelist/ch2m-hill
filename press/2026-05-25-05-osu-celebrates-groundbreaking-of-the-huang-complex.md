@@ -1,7 +1,9 @@
 ---
 title: OSU celebrates groundbreaking of the Huang Complex
 url: https://www.fororegonstate.org/stay-informed/impact-stories/detail/Huang_Complex_groundbreaking
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"CH2M Hill" press release artificial intelligence'
 position: 5
 source: serpapi-google
