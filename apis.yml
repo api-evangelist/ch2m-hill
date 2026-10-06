@@ -36,7 +36,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ch2m-hill.png
 access: 3rd-Party
 created: '2025-01-01'
-modified: '2026-09-05'
+modified: '2026-10-06'
 position: Consuming
 description: >-
   CH2M Hill was a global engineering, consulting, design, construction and
@@ -50,6 +50,8 @@ description: >-
   delivery, and data services are now offered under the Jacobs brand.
 apis: []
 common:
+  - url: https://www.jacobs.com/insights
+    type: Blog
   - type: DomainSecurity
     url: security/ch2m-hill-domain-security.yml
   - type: Packages
