@@ -1,4 +1,4 @@
-# CH2M Hill (ch2m-hill)
+# CH2M Hill
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,51 +66,91 @@
 
 CH2M Hill was a global engineering, consulting, design, construction and operations firm providing services for corporations and federal, state, and local governments. Headquartered in Englewood, Colorado, the firm delivered work in water, transportation, environment, energy, industrial, and facilities markets. In December 2017 CH2M was acquired by Jacobs Engineering (now Jacobs Solutions) and its operations have been integrated into Jacobs. As of the acquisition, CH2M Hill no longer publishes a standalone public API program; relevant digital engineering, project delivery, and data services are now offered under the Jacobs brand.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/ch2m-hill/refs/heads/main/apis.yml)
+**Areas:** Acquired · Construction · Consulting · Engineering · Government · Infrastructure
 
-## Scope
+## CH2M Hill on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
-- **x-type:** company
+Everything profiled for CH2M Hill is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ch2m-hill/](https://apis.io/providers/ch2m-hill/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
-- Acquired, Construction, Consulting, Engineering, Government, Infrastructure
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### Security (1)
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-23
+Authentication, trust centre, and vulnerability disclosure.
 
-## APIs
+- [Ch2M Hill Domain Security](https://apis.io/security/ch2m-hill/ch2m-hill-domain-security/)
 
-No public APIs are documented. CH2M Hill was acquired by Jacobs (now Jacobs Solutions) in December 2017 and its operations were integrated into the parent company. Any digital engineering APIs are now associated with Jacobs.
+#### Plans and pricing (1)
 
-## Common Properties
+Published plans, tiers and prices.
 
-- [Website (Jacobs)](https://www.jacobs.com/)
-- [Legacy CH2M Website](https://www.ch2mhill.com/)
-- [Acquisition Announcement](https://www.jacobs.com/newsroom/news/jacobs-completes-acquisition-ch2m)
-- [Parent Company: Jacobs](https://www.jacobs.com/)
-- [About Jacobs](https://www.jacobs.com/about)
-- [News](https://www.jacobs.com/newsroom)
-- [Careers](https://careers.jacobs.com/)
-- [Wikipedia](https://en.wikipedia.org/wiki/CH2M_Hill)
-- [LinkedIn](https://www.linkedin.com/company/jacobs/)
-- [X](https://x.com/JacobsConnects)
+- [Ch2M Hill Plans Pricing](https://apis.io/plans/ch2m-hill/ch2m-hill-plans-pricing/)
 
-## Services
+#### Rate limits (1)
 
-Water Engineering, Transportation Engineering, Environmental Services, Energy and Resources, Industrial Facilities, Program Management, Design-Build, Operations and Maintenance, Digital Engineering, Asset Management
+Published request limits.
 
-## Markets
+- [Ch2M Hill Rate Limits](https://apis.io/rate-limits/ch2m-hill/ch2m-hill-rate-limits/)
 
-Water, Transportation, Environment, Energy, Urban Infrastructure, Industrial, Federal Government, State and Local Government, Defense
+## Where to find this API
 
-## Maintainers
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-**FN:** Kin Lane
+- [Website](https://www.jacobs.com/)
+- [Blog](https://www.jacobs.com/insights)
+- [GitHub](https://github.com/CH2M)
 
-**Email:** info@apievangelist.com
+## API Evangelist rating
+
+**Kin Score 4.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ch2m-hill/](https://apis.io/providers/ch2m-hill/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CH2M Hill: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ch2m-hill/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
